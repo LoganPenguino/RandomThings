@@ -1,0 +1,79 @@
+/*Body*/
+button{
+   margin-top: 15px;
+   font-size: 1.5 em;
+   background-color: #00ff2f;
+   padding: 10px 15px;
+   border-radius: 5px;
+   cursor: pointer;
+
+   &:hover,
+    &:focus,
+    &:focus-visible,
+    &:focus-within {
+       background-color: #35ff7b;
+    }
+}
+body{
+   background-color: #ff1567;
+}
+.btn {
+    color: black;
+    padding: 5px 10px;
+    box-shadow: -3px -3px black;
+    background-color: #00ff2f;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+ 
+    &:hover,
+    &:focus,
+    &:focus-visible,
+    &:focus-within {
+       background-color: #35ff7b;
+    }
+ }
+ form{
+   max-width: 350px;
+   padding: 25px;
+   margin: auto;
+   border-radius: 10px;
+ }
+ #textbox{
+   border: 2px solid black;
+   border-radius: 10px;
+   width: 50%;
+   margin-bottom: 15px;
+   background-color: aquamarine;
+ }
+/*Text*/
+#result{
+   font-size: 1.75em;
+   font-weight: bold;
+}
+label{
+   font-size: 1.5em;
+   font-weight: bold;
+}
+#textbox{
+   text-align: center;
+   font-size: 2em;
+
+   &[type=number]::-webkit-inner-spin-button, 
+   &[type=number]::-webkit-outer-spin-button { 
+         -webkit-appearance: none; 
+         margin: 0; 
+   }
+}
+form{
+   text-align: center;
+}
+#amount{
+   font-size: 2em;
+   text-align: center;
+}
+/*Images*/
+img{
+   user-select: none;
+}
